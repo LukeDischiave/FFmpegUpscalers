@@ -14,6 +14,6 @@ PAL_Crop_1080p:
 -upscales to 1680x1080 using a nearest neighbor algorithm
 -compresses the video, including halving the framerate
 
-getFPS
+getFPS:
 -outputs the exact fractional framerate (frame interval) of the source video to a text file called "fps_output.txt"
 
