@@ -10,14 +10,14 @@ Drop video files on top of the batch files to process
 
 ### NTSC_Crop_1080p: 
 -crops the letterboxing specific to NTSC Mario Kart 64\
--downscales to 240p \
--upscales to roughly 4:3 1080p (1440x1080) using a nearest neighbor algorithm \
+-downscales oversampled source footage to 240p \
+-upscales to roughly 4:3 1080p (1440x1080) using a nearest neighbor algorithm for sharpest pixels \
 -compresses the video, including halving the framerate
 
 ### PAL_Crop_1080p:
 -crops the letterboxing specific to PAL Mario Kart 64\
 -downscales to 288p \
--upscales to 1680x1080 (14:9 aspect ratio) using a nearest neighbor algorithm for sharpest pixels\
+-upscales to 1680x1080 (14:9 aspect ratio) using a nearest neighbor algorithm\
 -compresses the video, including halving the framerate
 
 ### getFPS:
