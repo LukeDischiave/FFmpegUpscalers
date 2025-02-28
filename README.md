@@ -2,7 +2,7 @@
 I developed these scripts to get the best capture quality out of Mario Kart 64 captures from an NTSC (American/Japanese) or PAL (European) Nintendo 64 console.
 
 ## Description
-These scripts are intended to be used with oversampled (4x horizontal sampling) capture footage from a Datapath Vision-E1 video capture card.\
+These scripts are intended to be used with oversampled (4x horizontal sampling) capture footage from a Datapath Vision-E1 video capture card.\\
 The intended source device is an RGB-modded Nintendo 64 console running Mario Kart 64.
 More details are available on my website: https://lukedischiave.neocities.org/Datapath/
 
