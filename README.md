@@ -3,7 +3,7 @@ I developed these scripts to get the best capture quality out of Mario Kart 64 c
 
 ## Description
 These scripts are intended to be used with oversampled (4x horizontal sampling) capture footage from an RGB-modded Nintendo 64.\
-More info on this is available on my website: https://lukedischiave.neocities.org/Datapath/\
+More info on this is available on my website: https://lukedischiave.neocities.org/Datapath/
 
 ## How to use
 Drop video files on top of the batch files to process
