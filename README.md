@@ -6,7 +6,7 @@ I developed these ffmpeg scripts to get the best capture quality out of Mario Ka
 Make sure to watch in 4k or highest quality to minimize compression artifacts
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/dEsy-8XTVak/0.jpg)](http://www.youtube.com/watch?v=dEsy-8XTVak "Video Title")
 
-# Enhanced video output 
+# Enhanced video output after using scripts
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/_FEqBgkAbJ4/0.jpg)](http://www.youtube.com/watch?v=_FEqBgkAbJ4 "Video Title")
 
 ## Description
