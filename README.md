@@ -1,6 +1,14 @@
 # FFmpegUpscalers
 I developed these ffmpeg scripts to get the best capture quality out of Mario Kart 64 captures from an NTSC (American/Japanese) or PAL (European) Nintendo 64 console.
 
+
+# Example video with no oversampling (Click Pic to watch video)
+Make sure to watch in 4k or highest quality to minimize compression artifacts
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/dEsy-8XTVak/0.jpg)](http://www.youtube.com/watch?v=dEsy-8XTVak "Video Title")
+
+# Enhanced video output 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/_FEqBgkAbJ4/0.jpg)](http://www.youtube.com/watch?v=_FEqBgkAbJ4 "Video Title")
+
 ## Description
 These scripts are intended to be used with oversampled (4x horizontal sampling) capture footage from a Datapath Vision-E1 video capture card on a Windows system. More details on oversampling are available on my website: https://lukedischiave.neocities.org/Datapath/
 
@@ -29,3 +37,6 @@ The new file will have the same name as the old file, with "-1" appended onto th
 
 ### getFPS:
 -outputs the exact fractional framerate (frame interval) of the source video to a text file called "fps_output.txt". Useful for calculating desired framerates of the output video.
+
+
+
