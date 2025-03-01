@@ -1,11 +1,19 @@
 # FFmpegUpscalers
-I developed these scripts to get the best capture quality out of Mario Kart 64 captures from an NTSC (American/Japanese) or PAL (European) Nintendo 64 console.
+I developed these ffmpeg scripts to get the best capture quality out of Mario Kart 64 captures from an NTSC (American/Japanese) or PAL (European) Nintendo 64 console.
 
 ## Description
-These scripts are intended to be used with oversampled (4x horizontal sampling) capture footage from a Datapath Vision-E1 video capture card. More details are available on my website: https://lukedischiave.neocities.org/Datapath/
+These scripts are intended to be used with oversampled (4x horizontal sampling) capture footage from a Datapath Vision-E1 video capture card on a Windows system. More details on oversampling are available on my website: https://lukedischiave.neocities.org/Datapath/
 
 ## How to use
-Drop raw video files on top of the batch files to process and encode them into new files
+**Note:** FFmpeg.exe and FFprobe.exe must be in the source directory in order to use. It can be downloaded here: https://www.gyan.dev/ffmpeg/builds/. Download the lastest release and unzip it. Copy the contents of the "bin" folder and paste them into the same directory where you have the scripts downloaded.
+
+1.) Drop raw video files on top of the batch files to process and encode them into new files 
+
+2.) Enter the start time of the new video you'd like to create (if you're starting at the beginning you can just press enter) 
+
+3.) Enter the end time and hit enter. The new video clip will begin encoding in the terminal. The window will close when the video is done encoding 
+
+The new file will have the same name as the old file, with "-1" appended onto the end of the name in order to avoid overwriting the original file.
 
 ### NTSC_Crop_1080p: 
 -crops the letterboxing specific to NTSC Mario Kart 64 footage\
@@ -20,4 +28,4 @@ Drop raw video files on top of the batch files to process and encode them into n
 -compresses the video, including halving the framerate and re-encoding using YUV444
 
 ### getFPS:
--outputs the exact fractional framerate (frame interval) of the source video to a text file called "fps_output.txt"
+-outputs the exact fractional framerate (frame interval) of the source video to a text file called "fps_output.txt". Useful for calculating desired framerates of the output video.
