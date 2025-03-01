@@ -2,7 +2,7 @@
 I developed these ffmpeg scripts to get the best capture quality out of Mario Kart 64 captures from an NTSC (American/Japanese) or PAL (European) Nintendo 64 console.
 
 
-# Example video with no oversampling (Click Pic to watch video)
+# Example video with no oversampling (Click pic to watch video)
 Make sure to watch in 4k or highest quality to minimize compression artifacts
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/dEsy-8XTVak/0.jpg)](http://www.youtube.com/watch?v=dEsy-8XTVak "Video Title")
 
